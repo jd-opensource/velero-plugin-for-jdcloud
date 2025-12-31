@@ -1,5 +1,32 @@
 # Velero Deployment
 
+<h1 align="center">
+  <a href="https://github.com/jd-opensource/velero-plugin-for-jdcloud">
+    <img src="docs/images/logo.svg" alt="Logo" width="125" height="125">
+  </a>
+</h1>
+
+<div align="center">
+  Velero Plugin For JDCloud
+  <br />
+  <br />
+  <a href="https://github.com/jd-opensource/velero-plugin-for-jdcloud/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
+  ·
+  <a href="https://github.com/jd-opensource/velero-plugin-for-jdcloud/issues/new?assignees=&labels=enhancement&template=02_FEATURE_REQUEST.md&title=feat%3A+">Request a Feature</a>
+  .
+  <a href="https://github.com/jd-opensource/velero-plugin-for-jdcloud/discussions">Ask a Question</a>
+</div>
+
+<div align="center">
+<br />
+
+[![license](https://img.shields.io/github/license/jd-opensource/joylive-agent.svg?style=flat-square)](LICENSE)
+
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/jd-opensource/velero-plugin-for-jdcloud/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
+[![made with hearth by JD](https://img.shields.io/badge/made%20with%20%E2%99%A5%20by-dec0dOS-ff1414.svg?style=flat-square)](https://github.com/jd-opensource)
+
+</div>
+
 ## Overview
 
 This plugin is used for saving and retrieving backup data on [JDCloud OSS](https://oss-console.jdcloud.com/) as an object storage plugin. The backup includes metadata files of Kubernetes resources and CSI objects, as well as the progress of asynchronous operations. It is also used to store result data from backups and restores, including log files, warning/error files, and more.
@@ -153,3 +180,7 @@ This plugin is used for saving and retrieving backup data on [JDCloud OSS](https
     kubectl delete namespace/velero clusterrolebinding/velero
     kubectl delete crds -l component=velero
     ```
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=jd-opensource/velero-plugin-for-jdcloud&type=date&legend=top-left)](https://www.star-history.com/#jd-opensource/velero-plugin-for-jdcloud&type=date&legend=top-left)
