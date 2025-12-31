@@ -21,9 +21,9 @@
 <br />
 
 [![license](https://img.shields.io/github/license/jd-opensource/joylive-agent.svg?style=flat-square)](LICENSE)
-
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/jd-opensource/velero-plugin-for-jdcloud/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
 [![made with hearth by JD](https://img.shields.io/badge/made%20with%20%E2%99%A5%20by-dec0dOS-ff1414.svg?style=flat-square)](https://github.com/jd-opensource)
+[![CodeQL Advanced](https://github.com/jd-opensource/velero-plugin-for-jdcloud/actions/workflows/codeql.yml/badge.svg)](https://github.com/jd-opensource/velero-plugin-for-jdcloud/actions/workflows/codeql.yml)
 
 </div>
 
@@ -33,14 +33,14 @@ This plugin is used for saving and retrieving backup data on [JDCloud OSS](https
 
 ## Prerequisites
 
-- JKE cluster
+- JKE Cluster or other K8S Cluster
 - Git
 - Docker
 - Docker-buildx
 
 ## Deployment
 
-1. Log in to a node in the JKE cluster and connect to the cluster.
+1. Log in to a node in the JKE Cluster or other K8S Cluster and connect to the cluster.
 
 2. Install the Velero CLI tool.
 
@@ -99,7 +99,7 @@ This plugin is used for saving and retrieving backup data on [JDCloud OSS](https
 
    Replace `<Your Bucket>` and `<Your Endpoint>` with your bucket name and endpoint.
 
-   Enter the JKE cluster, upgrade the Velero workload, replace the image with the one uploaded to JD Image Serve.
+   Enter the K8S Cluster, upgrade the Velero workload, replace the image with the one uploaded to JD Image Serve.
 
 7. Check the storage location status.
 
@@ -180,6 +180,12 @@ This plugin is used for saving and retrieving backup data on [JDCloud OSS](https
     kubectl delete namespace/velero clusterrolebinding/velero
     kubectl delete crds -l component=velero
     ```
+
+## Contributors
+
+<a href="https://github.com/jd-opensource/velero-plugin-for-jdcloud/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=jd-opensource/velero-plugin-for-jdcloud" />
+</a>
 
 ## Star History
 
