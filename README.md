@@ -20,6 +20,7 @@
 <div align="center">
 <br />
 
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/jd-opensource/velero-plugin-for-jdcloud/badge)](https://scorecard.dev/viewer/?uri=github.com/jd-opensource/velero-plugin-for-jdcloud)
 [![license](https://img.shields.io/github/license/jd-opensource/joylive-agent.svg?style=flat-square)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/jd-opensource/velero-plugin-for-jdcloud/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
 [![made with hearth by JD](https://img.shields.io/badge/made%20with%20%E2%99%A5%20by-JDCloud-ff1414.svg?style=flat-square)](https://github.com/jd-opensource)
